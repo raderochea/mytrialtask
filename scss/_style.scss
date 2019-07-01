@@ -575,6 +575,7 @@ header {
         top: -130px;
         right: 0px;
         padding: 20px;
+        z-index: 20;
 
         @include breakpoint(mobile) {
             width: 100%;
