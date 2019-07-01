@@ -1,0 +1,1017 @@
+@font-face {
+  font-family: "productSansReg";
+  src: url("font/ProductSansRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "productSansBold";
+  src: url("font/ProductSansBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "proximaNovaReg";
+  src: url("font/proximanova-regular.otf");
+}
+
+@font-face {
+  font-family: "proximaNovaLight";
+  src: url("font/ProximaNovaLight.otf");
+}
+
+@font-face {
+  font-family: "proximaNovaSemiBold";
+  src: url("font/ProximaNovaSemiboldItalic.ttf");
+}
+
+@font-face {
+  font-family: "productSansReg";
+  src: url("font/ProductSansRegular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "productSansBold";
+  src: url("font/ProductSansBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "proximaNovaReg";
+  src: url("font/proximanova-regular.otf");
+}
+
+@font-face {
+  font-family: "proximaNovaLight";
+  src: url("font/ProximaNovaLight.otf");
+}
+
+@font-face {
+  font-family: "proximaNovaSemiBold";
+  src: url("font/ProximaNovaSemiboldItalic.ttf");
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  min-height: 100%;
+}
+
+@media (max-width: 736px) {
+  .logo {
+    width: 100%;
+  }
+}
+
+header {
+  padding: 20px;
+}
+
+@media (max-width: 736px) {
+  header {
+    padding: 10px;
+    height: 60px;
+  }
+}
+
+header .contact {
+  background: url(img/phone.png);
+  background-repeat: no-repeat;
+  padding-left: 50px;
+  background-position: bottom left;
+  float: right;
+  cursor: pointer;
+}
+
+@media (max-width: 736px) {
+  header .contact {
+    padding-left: 0;
+    background-position: top right;
+  }
+}
+
+header .contact .cnum {
+  font-size: 26px;
+  font-family: 'proximaNovaReg';
+  display: block;
+  color: #7c8786;
+  line-height: 22px;
+}
+
+@media (max-width: 736px) {
+  header .contact .cnum {
+    visibility: hidden;
+  }
+}
+
+header .contact .ctext {
+  font-family: "productSansReg";
+  font-size: 10px;
+  color: #e4ca39;
+}
+
+@media (max-width: 736px) {
+  header .contact .ctext {
+    visibility: hidden;
+  }
+}
+
+.banner {
+  background: url("img/banner.jpg") bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  position: relative;
+  padding: 280px 0;
+}
+
+@media (max-width: 736px) {
+  .banner {
+    padding: 100px 0;
+    position: relative;
+    background-size: auto;
+    background-position: 33% 50%;
+  }
+}
+
+.atf {
+  width: 650px;
+  height: 560px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  bottom: 0;
+  margin: auto;
+}
+
+@media (max-width: 736px) {
+  .atf {
+    width: 100%;
+    height: 100%;
+    position: inherit;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+}
+
+.atf h3 {
+  text-align: center;
+  color: #fff;
+  font-family: 'proximaNovaLight';
+}
+
+@media (max-width: 736px) {
+  .atf h3 {
+    font-size: 32px;
+  }
+}
+
+.atf .atf-italic {
+  font-style: italic;
+  font-family: 'proximaNovaSemiBold';
+}
+
+@media (max-width: 736px) {
+  .atf .home-services {
+    width: 100%;
+    padding: 0px 25px;
+    overflow: hidden;
+  }
+}
+
+.atf .box {
+  margin-top: 45px;
+}
+
+@media (max-width: 736px) {
+  .atf .box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+  }
+}
+
+.atf .box .box-img {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 315px;
+  height: 120px;
+  position: relative;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+@media (max-width: 736px) {
+  .atf .box .box-img {
+    width: 80px;
+    height: 60px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 0px;
+    background: #ffffff;
+  }
+}
+
+.atf .box .box-img img {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  -webkit-filter: brightness(0) invert(1);
+          filter: brightness(0) invert(1);
+}
+
+@media (max-width: 736px) {
+  .atf .box .box-img img {
+    -webkit-filter: none;
+            filter: none;
+    width: 60%;
+  }
+}
+
+.atf .box .box-desc {
+  background: #fff;
+  width: 315px;
+  height: 56px;
+}
+
+@media (max-width: 736px) {
+  .atf .box .box-desc {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: relative;
+  }
+}
+
+.atf .box .box-desc p {
+  font-size: 16px;
+  font-family: 'productSansReg';
+  color: #818181;
+  text-align: center;
+  display: block;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+@media (max-width: 736px) {
+  .atf .box .box-desc p {
+    color: #ffffff;
+    font-size: 17px;
+  }
+}
+
+.atf .box .box-desc .desc-bold {
+  font-family: 'productSansBold';
+}
+
+.about {
+  width: 100%;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+@media (max-width: 736px) {
+  .about {
+    padding: 40px 15px;
+  }
+}
+
+.about .about-desc {
+  font-size: 20px;
+  line-height: 40px;
+  color: #616161;
+  padding-top: 15px;
+}
+
+.about .about-title {
+  font-family: 'productSansReg';
+  font-size: 36px;
+  color: #707070;
+}
+
+@media (max-width: 736px) {
+  .about .about-title {
+    font-size: 30px;
+  }
+}
+
+.about .about-title img {
+  vertical-align: unset;
+  margin: 0 0 0 20px;
+}
+
+@media (max-width: 736px) {
+  .about .about-title img {
+    margin: 0 0 0 10px;
+    width: 100px;
+    float: right;
+  }
+}
+
+.about ul {
+  margin: 0;
+  padding: 0;
+  width: 450px;
+}
+
+@media (max-width: 736px) {
+  .about ul {
+    width: 100%;
+  }
+}
+
+@media (min-width: 37.5em) {
+  .about ul {
+    width: 100%;
+  }
+}
+
+@media (max-width: 736px) {
+  .about ul img {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+.about .echoice-list {
+  top: -10px;
+}
+
+.about .echoice-list li {
+  background: url(img/check.png) no-repeat 0px 12px;
+  list-style-type: none;
+  font-size: 17px;
+  color: #616161;
+  padding: 18px 0px 0px 50px;
+  margin: 0;
+}
+
+.about .echoice-logo {
+  padding: 0;
+}
+
+.about .echoice-logo li {
+  display: table-cell;
+  padding: 10px;
+}
+
+@media (max-width: 736px) {
+  .about .echoice-logo li {
+    padding: 10px 0px;
+  }
+}
+
+.about .row.loan-lenders {
+  padding: 20px 0px;
+}
+
+@media (max-width: 736px) {
+  .about .row.loan-lenders img {
+    width: 90px;
+  }
+}
+
+@media (max-width: 736px) {
+  .about .free-report img {
+    width: 90px;
+  }
+}
+
+.about .lenders .lenders-logo-farm {
+  padding-top: 15px;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 736px) {
+  .about .lenders .lenders-logo-farm {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+.about .lenders .lenders-logo-farm ul {
+  padding: 0;
+}
+
+.about .lenders .lenders-logo-farm ul li {
+  list-style: none;
+  display: table-cell;
+  padding: 10px;
+}
+
+@media (max-width: 736px) {
+  .about .lenders .lenders-logo-farm ul li {
+    padding: 0px;
+  }
+}
+
+@media (max-width: 736px) {
+  .about .lenders .lenders-logo-farm ul li img {
+    width: 100%;
+    padding: 0;
+    padding: 8px;
+  }
+}
+
+@media (min-width: 37.5em) {
+  .about .lenders .lenders-logo-farm ul li img {
+    width: 100%;
+    padding: 0px;
+  }
+}
+
+.about .lenders .lenders-logo-farm::after {
+  height: 1px;
+  display: block;
+  width: 100%;
+  background: #ebebeb;
+  border-right: 1px white;
+  content: '';
+}
+
+.about .lenders .lender-text {
+  font-size: 20px;
+  font-family: 'productSansReg';
+  color: #616161;
+}
+
+@media (max-width: 736px) {
+  .about .lenders .lender-text {
+    font-size: 15px;
+  }
+}
+
+.about .lenders .lender-text p {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 736px) {
+  .about .lenders .lender-text p {
+    left: 30px;
+  }
+}
+
+.about .lenders .lender-text .block-text {
+  display: block;
+}
+
+.about .lenders .lender-bold {
+  font-family: 'productSansBold';
+  color: #616161;
+}
+
+@media (max-width: 736px) {
+  .affordable-rate img {
+    width: 100%;
+  }
+}
+
+.affordable-rate .rate-info {
+  display: inline-block;
+  width: 50%;
+  position: absolute;
+  top: 30px;
+  padding: 20px;
+}
+
+@media (max-width: 736px) {
+  .affordable-rate .rate-info {
+    width: 100%;
+    display: block;
+    position: relative;
+    right: 0;
+    padding: 50px 25px;
+  }
+}
+
+.affordable-rate .rate-title {
+  font-size: 36px;
+  line-height: 30px;
+  color: #707070;
+  font-family: 'productSansReg';
+}
+
+.affordable-rate .rate-desc {
+  font-size: 20px;
+  line-height: 40px;
+  color: #616161;
+  font-family: 'productSansReg';
+}
+
+.affordable-rate ul {
+  padding: 0;
+  margin: 0;
+}
+
+.affordable-rate ul li {
+  width: 50%;
+  float: left;
+}
+
+@media (max-width: 736px) {
+  .affordable-rate ul li {
+    width: 100%;
+  }
+}
+
+.affordable-rate li {
+  background: url(img/check.png) no-repeat 0px 15px;
+  list-style-type: none;
+  font-size: 17px;
+  color: #616161;
+  padding: 20px 0px 0px 50px;
+}
+
+.review {
+  height: 522px;
+  padding: 100px 0px;
+  position: relative;
+  background: #ffffff;
+}
+
+@media (max-width: 736px) {
+  .review {
+    height: 100%;
+    padding: 0;
+    position: relative;
+    padding-top: 50px;
+    display: inline-table;
+    margin-top: 50px;
+  }
+}
+
+.review .container {
+  position: relative;
+}
+
+.review .cx-review {
+  padding: 0px 30px;
+}
+
+@media (max-width: 736px) {
+  .review .cx-review {
+    padding: 10px;
+    position: relative;
+    margin-left: -10px;
+  }
+}
+
+.review .review-title {
+  font-size: 36px;
+  line-height: 30px;
+  color: #707070;
+  font-family: 'productSansReg';
+}
+
+@media (max-width: 736px) {
+  .review .review-title {
+    font-size: 32px;
+    padding: 0px 20px;
+  }
+}
+
+.review .rating {
+  background: url(img/49.png);
+  background-repeat: no-repeat;
+  height: 102px;
+  padding-left: 130px;
+  margin: 48px 0px 38px 0px;
+  position: relative;
+}
+
+@media (max-width: 736px) {
+  .review .rating {
+    background: url(img/49.png) 4% 0px;
+    background-repeat: no-repeat;
+    height: 120px;
+    padding-top: 18px;
+    margin: 0px 0px -20px 0px;
+  }
+}
+
+.review .stars, .review .stars-5, .review .stars-4, .review .stars-3, .review .stars-2, .review .stars-1 {
+  background: url(img/star.png);
+  height: 35px;
+  margin-bottom: 0px;
+  position: relative;
+  z-index: 20;
+}
+
+.review .stars-5 {
+  width: 175px;
+}
+
+@media (max-width: 736px) {
+  .review .stars-5 {
+    width: 150px;
+    background-size: 30px;
+    height: 30px;
+  }
+}
+
+.review .stars-4 {
+  width: 140px;
+}
+
+.review .stars-3 {
+  width: 105px;
+}
+
+.review .stars-2 {
+  width: 70px;
+}
+
+.review .stars-1 {
+  width: 35px;
+}
+
+.review .rate-group {
+  width: 551px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 3px 35px rgba(223, 222, 222, 0.35);
+          box-shadow: 0px 3px 35px rgba(223, 222, 222, 0.35);
+  background-color: #ffffff;
+  border: 1px solid #f3f3f3;
+  position: absolute;
+  top: -130px;
+  right: 0px;
+  padding: 20px;
+}
+
+@media (max-width: 736px) {
+  .review .rate-group {
+    width: 100%;
+    position: initial;
+    top: 0;
+    padding: 30px 60px;
+  }
+}
+
+.review .total-stars {
+  font-size: 20px;
+  color: #424242;
+}
+
+.review .rate-title {
+  font-size: 22px;
+  color: #636363;
+  font-family: 'productSansBold';
+}
+
+@media (max-width: 736px) {
+  .review .rate-title {
+    font-size: 20px;
+    margin: 0;
+  }
+}
+
+.review .testimonial {
+  font-size: 20px;
+  line-height: 40px;
+  color: #5a5a5a;
+  vertical-align: top;
+  font-family: 'productSansReg';
+}
+
+@media (max-width: 736px) {
+  .review .testimonial {
+    font-size: 18px;
+    line-height: 30px;
+    padding: 20px;
+    margin: 0;
+  }
+}
+
+@media (max-width: 736px) {
+  .review .testimonial span {
+    display: none;
+  }
+}
+
+.review .cx-info {
+  height: 20px;
+  font-size: 15px;
+  color: #838383;
+  vertical-align: top;
+  font-family: 'productSansReg';
+}
+
+@media (max-width: 736px) {
+  .review .cx-info {
+    font-size: 14px;
+  }
+}
+
+.review .rate-info::before, .review .rate-info-5::before, .review .rate-info-4::before, .review .rate-info-3::before, .review .rate-info-2::before, .review .rate-info-1::before {
+  background: url(img/star.png);
+  background-size: 20px;
+  height: 20px;
+  position: relative;
+  z-index: 20;
+  content: '';
+  display: -webkit-inline-box;
+  margin-right: 10px;
+}
+
+.review .rate-info-5::before {
+  width: 100px;
+}
+
+@media (max-width: 736px) {
+  .review .rate-info-5::before {
+    width: 75px;
+    height: 15px;
+    background-size: 15px;
+    margin-right: 5px;
+  }
+}
+
+.review .rate-info-4::before {
+  width: 80px;
+}
+
+.review .rate-info-3::before {
+  width: 60px;
+}
+
+.review .rate-info-2::before {
+  width: 40px;
+}
+
+.review .rate-info-1::before {
+  width: 20px;
+}
+
+.review .btn-rate {
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 5px 0px #218f87;
+          box-shadow: 0px 5px 0px #218f87;
+  background-color: #25a59d;
+  width: 100%;
+  height: 57px;
+  font-size: 20px;
+  line-height: 38px;
+  color: #ffffff;
+  font-family: 'productSansBold';
+  margin-top: 20px;
+}
+
+footer {
+  background-color: #f9f9f9;
+  padding: 45px;
+  margin-top: 35px;
+  position: relative;
+}
+
+@media (max-width: 736px) {
+  footer {
+    background-color: #f9f9f9;
+    padding: 45px;
+    margin-top: 35px;
+    position: relative;
+  }
+}
+
+footer ul {
+  padding: 0px;
+}
+
+@media (max-width: 736px) {
+  footer ul {
+    position: absolute;
+    bottom: 0px;
+  }
+}
+
+footer li {
+  list-style: none;
+  display: inline;
+}
+
+footer li:not(:first-child):not(:last-child) {
+  padding: 10px;
+}
+
+footer a {
+  font-size: 14px;
+  line-height: 26px;
+  color: #25a69d;
+  font-family: 'productSansReg';
+}
+
+@media (max-width: 736px) {
+  footer a {
+    font-size: 12px;
+  }
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+footer span {
+  display: block;
+  padding: 20px 0px;
+}
+
+footer .footer-text {
+  font-size: 15px;
+  line-height: 24px;
+  color: #b0b0b0;
+  font-family: 'productSansReg';
+}
+
+@media (max-width: 736px) {
+  footer .footer-text::before {
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: #e1e1e1;
+    border: 1px;
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 0;
+  }
+}
+
+footer .footer-text::after {
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: #e1e1e1;
+  border: 1px;
+  display: block;
+}
+
+footer .footer-info {
+  height: 100%;
+  padding: 15px 0px;
+}
+
+footer img {
+  margin: 0;
+}
+
+footer .address {
+  font-size: 16px;
+  line-height: 26px;
+  color: #a5a5a5;
+  float: right;
+  margin: 0;
+}
+
+@media (max-width: 736px) {
+  footer .address {
+    font-size: 12px;
+    color: #808080;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .free-report img,
+  .loan-lenders img {
+    width: 80px;
+  }
+  .about .echoice-list li {
+    font-size: 14px;
+  }
+  .about .about-desc {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .about .about-title {
+    font-size: 30px;
+  }
+  .about .about-title img {
+    width: 100px;
+  }
+  .review {
+    height: auto;
+    padding: 40px 0px;
+  }
+  .review .cx-review {
+    padding: 0px 20px;
+  }
+  .review .rate-group {
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 0 80px;
+  }
+  .affordable-rate img {
+    width: 50%;
+  }
+  .review .rating {
+    width: 40%;
+    float: left;
+    margin: 20px 0px 38px 0px;
+  }
+  .affordable-rate .rate-info {
+    width: auto;
+    right: auto;
+  }
+  .affordable-rate .rate-desc {
+    padding-right: 30px;
+    line-height: 30px;
+  }
+  .echoice-logo img {
+    width: 100%;
+  }
+  footer {
+    height: auto;
+    margin-top: 0;
+  }
+  .review .stars-5 {
+    width: 140px;
+    background-size: 28px;
+    height: 28px;
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+  .rate-desc {
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .affordable-rate .rate-title {
+    font-size: 24px;
+    line-height: 15px;
+  }
+  .affordable-rate .rate-desc {
+    font-size: 14px;
+    line-height: 24px;
+    color: #616161;
+  }
+  .affordable-rate ul li {
+    font-size: 13px;
+    line-height: 18px;
+    color: #616161;
+    margin-left: -14px;
+    position: relative;
+    top: -20px;
+  }
+  .review .testimonial {
+    font-size: 14px;
+    line-height: 28px;
+    color: #5a5a5a;
+    position: relative;
+    top: 15px;
+  }
+  .about .lenders .lender-text {
+    font-size: 14px;
+  }
+  .review .rate-title {
+    font-size: 18px;
+  }
+  .review .rating {
+    padding-left: 100px;
+    background-size: 90px;
+  }
+}
+
+@media (min-width: 1020px) and (max-width: 1040px) {
+  .affordable-rate .rate-title .about .lenders .lenders-logo-farm {
+    padding-bottom: 0px;
+  }
+  .affordable-rate .rate-title .about .echoice-list li {
+    font-size: 17px;
+  }
+  .affordable-rate .rate-title .about .about-desc {
+    font-size: 17px;
+    line-height: 26px;
+  }
+  .affordable-rate .rate-title .about .echoice-logo li {
+    padding: 35px 10px;
+  }
+  .affordable-rate .rate-title .affordable-rate ul li {
+    position: relative;
+    top: -10px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px !important;
+  }
+}
+/*# sourceMappingURL=main.css.map */

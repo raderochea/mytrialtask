@@ -1,0 +1,163 @@
+// Ipad
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .free-report img,
+    .loan-lenders img {
+        width: 80px;
+    }
+
+    .about .echoice-list li {
+        font-size: 14px;
+    }
+
+    .about .about-desc {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .about .about-title {
+        font-size: 30px;
+    }
+
+    .about .about-title img {
+        width: 100px;
+    }
+
+    .review {
+        height: auto;
+        padding: 40px 0px;
+    }
+
+    .review .cx-review {
+        padding: 0px 20px;
+    }
+
+    .review .rate-group {
+        position: relative;
+        top: 0;
+        width: 100%;
+        padding: 0 80px;
+    }
+
+    .affordable-rate img {
+        width: 50%;
+    }
+
+    .review .rating {
+        width: 40%;
+        float: left;
+        margin: 20px 0px 38px 0px;
+    }
+
+    .affordable-rate .rate-info {
+        width: auto;
+        right: auto;
+    }
+
+    .affordable-rate .rate-desc {
+        padding-right: 30px;
+        line-height: 30px;
+    }
+
+    .echoice-logo img {
+        width: 100%;
+    }
+
+    footer {
+        height: auto;
+        margin-top: 0;
+    }
+
+    .review .stars-5 {
+        width: 140px;
+        background-size: 28px;
+        height: 28px;
+        margin-top: 15px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1000px) {
+    .rate-desc {
+        font-size: 14px;
+        line-height: 30px;
+    }
+
+    .affordable-rate .rate-title {
+        font-size: 24px;
+        line-height: 15px
+    }
+
+    .affordable-rate .rate-desc {
+        font-size: 14px;
+        line-height: 24px;
+        color: #616161;
+    }
+
+    .affordable-rate ul li {
+        font-size: 13px;
+        line-height: 18px;
+        color: #616161;
+        margin-left: -14px;
+        position: relative;
+        top: -20px;
+
+    }
+
+    .review .testimonial {
+        font-size: 14px;
+        line-height: 28px;
+        color: #5a5a5a;
+        position: relative;
+        top: 15px;
+    }
+
+    .about .lenders .lender-text {
+        font-size: 14px;
+    }
+
+    .review .rate-title {
+        font-size: 18px;
+    }
+
+    .review .rating {
+        padding-left: 100px;
+        background-size: 90px;
+    }
+}
+
+// iPad Pro
+
+@media (min-width: 1020px) and (max-width: 1040px) {
+    .affordable-rate .rate-title {
+        .about .lenders .lenders-logo-farm {
+            padding-bottom: 0px;
+        }
+
+        .about .echoice-list li {
+            font-size: 17px;
+        }
+
+        .about .about-desc {
+            font-size: 17px;
+            line-height: 26px;
+        }
+
+        .about .echoice-logo li {
+            padding: 35px 10px;
+        }
+
+        .affordable-rate ul li {
+            position: relative;
+            top: -10px;
+        }
+    }
+}
+
+
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1200px !important;
+    }
+}
